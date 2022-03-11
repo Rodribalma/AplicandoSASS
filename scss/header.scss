@@ -1,0 +1,15 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1.9fr 0.5fr 0.6fr;
+    gap: 0px 0px;
+    grid-template-areas: "redes"
+   "logo"
+   "eslogan"
+   "nav";
+    justify-content: space-around;
+    align-content: stretch;
+    justify-items: center;
+    align-items: center;
+    background-color: black; }
+  

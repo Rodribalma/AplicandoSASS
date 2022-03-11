@@ -1,0 +1,10 @@
+.menu {
+    display: grid;
+    grid-template-columns: max-content max-content max-content max-content;
+    grid-template-rows: 1fr;
+    gap: 0px 15px;
+    grid-template-areas: ". . . .";
+    grid-area: menu;
+    justify-content: space-evenly;
+    justify-items: stretch;
+    align-items: stretch; }

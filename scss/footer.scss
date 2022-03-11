@@ -1,0 +1,24 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-template-areas: "maps horarios"; }
+  
+  .maps {
+    justify-self: start;
+    align-self: end;
+    grid-area: maps;
+    width: auto;
+    padding: 20;
+    margin: auto; }
+  
+  .horarios {
+    justify-self: end;
+    align-self: end;
+    grid-area: horarios;
+    background-color: dimgrey;
+    width: auto;
+    padding: 20;
+    margin: auto;
+    background-image: linear-gradient(grey, white); }
