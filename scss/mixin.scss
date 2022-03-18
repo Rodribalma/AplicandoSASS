@@ -1,0 +1,9 @@
+@mixin flexRowCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-self: auto;
+}
+main {
+    @include flexRowCenter;
+}

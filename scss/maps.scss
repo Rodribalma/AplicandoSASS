@@ -1,0 +1,12 @@
+$estilos:(
+    color:white, 
+    centro:center,
+    tFuente: 20px,
+    paddingTop: 15px,
+    margin: 10px
+);
+div {
+    color:map-get($estilos, color);
+    text-align: map-get($estilo,centro);
+    font-size: map-get($estilo,tFuente);
+}
